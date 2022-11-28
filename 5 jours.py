@@ -9,7 +9,7 @@ from statsmodels.tsa.stattools import acf
 
 #import data
                
-df25 = pd.read_csv('/Users/wisar/OneDrive/Escritorio/GCU - INSA Lyon/5 annee/S9/PIRD/Ibrahim/data_csv/25-EC.csv',
+df25 = pd.read_csv('./data_csv/25-EC.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df25 = df25 ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
