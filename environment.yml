@@ -4,12 +4,12 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.8.8
+  - python=3.9
   - jupyter=1.0.0
-  - jupyterlab>=3.1
-  - matplotlib=3.4.1
-  - numpy=1.20.2
-  - pandas=1.2.4
-  - statsmodels
-  - seaborn
-  - pmdarima
+  - jupyterlab=3.3.2
+  - matplotlib=3.5.1
+  - numpy=1.21.5
+  - pandas=1.4.2
+  - statsmodels=0.13.2
+  - seaborn=0.11.2
+  - pmdarima=2.0.1
