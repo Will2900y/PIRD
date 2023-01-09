@@ -232,4 +232,13 @@ dependencies:
   - zipp=3.11.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h6239696_4
+  - python=3.8.8
+  - jupyter=1.0.0
+  - jupyterlab>=3.1
+  - matplotlib=3.4.1
+  - numpy=1.20.2
+  - pandas=1.2.4
+  - statsmodels
+  - seaborn
+  - pmdarima
 prefix: /srv/conda/envs/notebook
