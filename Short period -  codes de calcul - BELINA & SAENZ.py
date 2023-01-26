@@ -9,27 +9,27 @@ from statsmodels.tsa.stattools import acf
 
 #import data
                
-df25 = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/25-EC.csv',
+df25 = pd.read_csv('./data_csv/25-EC.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df25 = df25 ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
-df34 = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/34-EC.csv',
+df34 = pd.read_csv('./data_csv/34-EC.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df34 = df34 ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
-df64 = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/64-EC.csv',
+df64 = pd.read_csv('./data_csv/64-EC.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df64 = df64 ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
-df25w = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/25-IECS.csv',
+df25w = pd.read_csv('./data_csv/25-IECS.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df25w = df25w ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
-df34w = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/34-IECS.csv',
+df34w = pd.read_csv('./data_csv/34-IECS.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df34w = df34w ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
-df64w = pd.read_csv('/Users/belin/OneDrive/Documentos/Donnes_Pird/64-IECS.csv',
+df64w = pd.read_csv('./data_csv/64-IECS.csv',
                  parse_dates=['Date'], index_col=['Date'])
 df64w = df64w ['2021-01-26 00:00:00' : '2021-01-31 00:00:00']
 
